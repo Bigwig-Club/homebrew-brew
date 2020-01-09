@@ -1,29 +1,29 @@
-# Homebrew-brew [![Build Status](https://travis-ci.com/m01i0ng/homebrew.svg?branch=master)](https://travis-ci.com/m01i0ng/homebrew)
+# Homebrew-brew [![Build Status](https://travis-ci.com/Bigwig-Club/homebrew-brew.svg?branch=master)](https://travis-ci.com/Bigwig-Club/homebrew-brew)
 
 ## How do I install these casks or formule?
 
 First, install the tap:
 
 ```sh
-brew tap m01i0ng/brew
+brew tap bigwig-club/brew
 ```
 
 Once the tap is installed, you can install `upic` like this:
 
 ```sh
-brew cask install m01i0ng/brew/upic
+brew cask install bigwig-club/brew/upic
 ```
 
 For a list of info, you can run:
 
 ```sh
-brew cask info m01i0ng/brew/upic
+brew cask info bigwig-club/brew/upic
 ```
 
 For uninstall, run:
 
 ```sh
-brew cask zap m01i0ng/brew/upic
+brew cask zap bigwig-club/brew/upic
 ```
 
 ## Not recommanded
