@@ -1,6 +1,6 @@
 cask 'openfile' do
-    version '1.3'
-    sha256 'ac5d537fed6622f1f6438606a9ca19c92b9ed13ddb9628c93f892a797c535f96'
+    version '1.3.1'
+    sha256 '8733ea3fea31b55b39564f78c1d3a24f7ec41ef712471428e7f76a2f79a2b4b2'
   
     url "https://github.com/nlnlnull/OpenFile/releases/download/V#{version}/OpenFile.zip"
     appcast 'https://github.com/nlnlnull/OpenFile/releases.atom'
