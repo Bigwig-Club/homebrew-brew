@@ -1,4 +1,4 @@
-cask 'JSONToHandyJSON' do
+cask 'jsontohandyjson' do
   version '1.0'
   sha256 'c8ce93f9d43a616a54e34d438904cd07680747a1898c122df1ab9dc105910bc7'
 
