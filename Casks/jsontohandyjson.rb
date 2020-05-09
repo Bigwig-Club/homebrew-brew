@@ -1,6 +1,6 @@
 cask 'jsontohandyjson' do
-  version '1.0'
-  sha256 'c8ce93f9d43a616a54e34d438904cd07680747a1898c122df1ab9dc105910bc7'
+  version '1.1'
+  sha256 'aa89d14db120f70daed479ac681c220ade9c106beb4ee10b4c01b3c5ea756b08'
 
   url "https://github.com/nlnlnull/JSONToHandyJSON/releases/download/V#{version}/JSONToHandyJSON.zip"
   appcast 'https://github.com/nlnlnull/JSONToHandyJSON/releases.atom'
@@ -12,5 +12,7 @@ cask 'jsontohandyjson' do
   app 'JSONToHandyJSON.app'
 
   zap trash: [
+    '~/Library/Preferences/houmeng.JSONToHandyJSON.plist',
+    '~/Library/Containers/houmeng.JSONToHandyJSON/Data/Library/Preferences/houmeng.JSONToHandyJSON.plist'
              ]
 end
