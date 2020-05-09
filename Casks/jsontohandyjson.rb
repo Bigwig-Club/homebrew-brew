@@ -1,6 +1,6 @@
 cask 'jsontohandyjson' do
-  version '1.1'
-  sha256 'aa89d14db120f70daed479ac681c220ade9c106beb4ee10b4c01b3c5ea756b08'
+  version '1.2'
+  sha256 '1de0b22d9b691e9889a645a46f03552dcb4a074155f530e5d714f8f4ddd13ca9'
 
   url "https://github.com/nlnlnull/JSONToHandyJSON/releases/download/V#{version}/JSONToHandyJSON.zip"
   appcast 'https://github.com/nlnlnull/JSONToHandyJSON/releases.atom'
