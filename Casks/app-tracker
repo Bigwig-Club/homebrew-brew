@@ -1,7 +1,7 @@
 
 cask 'app-tracker' do
   version '1.0.0'
-  sha256 '4ac2feec347a601277d06d4cbf339149f1b988f11d396788dfb28634ee7ec25f'
+  sha256 'e1340f9dd0ab81c9b9c1ebcb36b3659b3c5900f910545e4bf3068c3a7e756ad9'
 
   url "https://github.com/L1cardo/AppTracker-Release/releases/download/v#{version}/App Tracker.dmg"
   appcast 'https://github.com/L1cardo/AppTracker-Release/releases.atom'
