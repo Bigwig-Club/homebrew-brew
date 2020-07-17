@@ -10,8 +10,4 @@ cask 'translation' do
   depends_on macos: '>= :catalina'
 
   app 'Translation.app'
-
-  zap trash: [
-    
-             ]
 end
