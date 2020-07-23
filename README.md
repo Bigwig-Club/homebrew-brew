@@ -1,4 +1,4 @@
-# Homebrew-brew [![Build Status](https://travis-ci.com/Bigwig-Club/homebrew-brew.svg?branch=master)](https://travis-ci.com/Bigwig-Club/homebrew-brew)
+# Homebrew-brew
 
 ## How do I install these casks or formule?
 
