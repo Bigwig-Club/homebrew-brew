@@ -10,21 +10,18 @@ jobs:
       - name: Check out Pull Request
         run: |
           brew update-reset "$(brew --repository)"
-
           HOMEBREW_INSTALL_BUNDLER_GEMS_FIRST=1 brew config
-
           brew tap "${GITHUB_REPOSITORY}"
-
           # Get latest version of `brew cask ci` command.
           if [ "${GITHUB_REPOSITORY}" != Homebrew/homebrew-cask ]; then
             brew update-reset "$(brew --repository homebrew/cask)"
           fi
-
           brew update-reset "$(brew --repository "${GITHUB_REPOSITORY}")"
-          
           cd "$(brew --repository "${GITHUB_REPOSITORY}")"
           patch="$(mktemp)"
           curl --silent --show-error --fail --location "${PR_URL}.patch" --output "${patch}"
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
           git am --whitespace=nowarn "${patch}"
           rm "${patch}"
         env:
@@ -37,6 +34,5 @@ jobs:
           unset HOMEBREW_CASK_OPTS
           brew cask ci
         env:
-          CI: true
           HOMEBREW_COLOR: 1
           HOMEBREW_DEVELOPER: 1
