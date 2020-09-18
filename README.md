@@ -2,6 +2,7 @@
 
 ## Cask list
 
+- account-switcher `Easily switch between multiple accounts in the App Store.` by [@L1cardo](https://github.com/L1cardo)
 - app-tracker `Track app's price change in App Store with multi options.` by [@L1cardo](https://github.com/L1cardo)
 - jsontohandyjson `Transform json to a handyjson object.` by [@nlnlnull](https://github.com/nlnlnull)
 - openfile `Openfile quickly.` by [@nlnlnull](https://github.com/nlnlnull)
