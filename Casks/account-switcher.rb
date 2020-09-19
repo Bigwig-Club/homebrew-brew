@@ -1,6 +1,6 @@
 cask "account-switcher" do
-  version "0.0.3"
-  sha256 "0df033494c26f14a7eaebfa2a3c5079e7e1e77fe8274f9117695818a9518dd79"
+  version "0.0.4"
+  sha256 "51082067e4d590abf03ec697b8d52c18882925fe82595453f417c3a8c0611a28"
 
   url "https://github.com/Bigwig-Club/Account-Switcher/releases/download/v#{version}/Account.Switcher.zip"
   appcast "https://github.com/Bigwig-Club/Account-Switcher/releases.atom"
