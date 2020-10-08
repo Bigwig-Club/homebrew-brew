@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 cask "font-operator-mono-lig" do
   version "1.0.0"
   sha256 "157895c6827b3c4efad5bedbc3a61f3ad43eeb72a6284de785591b0c4d2acbcd"
