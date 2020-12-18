@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "account-switcher" do
-  version "0.1.0"
-  sha256 "26be887dcbd9e0efe2e77bda18517533ea41f47495447a9afd528b0853610bb6"
+  version "0.1.1"
+  sha256 "84da8d9f28e9c9f9329dddca1cf4826c6d163b71e7971764dfe39c2ce24f5e22"
 
   url "https://github.com/Bigwig-Club/Account-Switcher/releases/download/v#{version}/Account.Switcher.zip"
   appcast "https://github.com/Bigwig-Club/Account-Switcher/releases.atom"
