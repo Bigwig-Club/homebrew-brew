@@ -2,8 +2,8 @@
 
 cask "account-switcher" do
   if MacOS.version >= :big_sur
-    version "1.0.0"
-    sha256 "f127a3a60f2552e57fb72fa5dd4bb90daf630bf972c0d7c3f16a9e98feeefbb7"
+    version "1.1.0"
+    sha256 "9b86e856ec4d4336798b8ade649eb06be63f0fd4caff55299e44067ea2aff908"
   else
     version "0.1.1"
     sha256 "84da8d9f28e9c9f9329dddca1cf4826c6d163b71e7971764dfe39c2ce24f5e22"
