@@ -21,5 +21,6 @@ cask "account-switcher" do
     "~/Library/Preferences/com.licardo.Account-Switcher.plist",
     "~/Library/Caches/com.licardo.Account-Switcher",
     "~/Library/Containers/com.licardo.Account-Switcher",
+    "~/Library/Saved Application State/com.licardo.Account-Switcher.savedState"
   ]
 end
