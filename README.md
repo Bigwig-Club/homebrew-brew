@@ -20,7 +20,7 @@ brew tap bigwig-club/brew
 Once the tap is installed, you can install `upic` like this:
 
 ```sh
-brew cask install bigwig-club/brew/upic
+brew install bigwig-club/brew/upic --cask
 ```
 
 For a list of info, you can run:
@@ -32,7 +32,7 @@ brew cask info bigwig-club/brew/upic
 For uninstall, run:
 
 ```sh
-brew cask zap bigwig-club/brew/upic
+brew uninstall bigwig-club/brew/upic --zap
 ```
 
 ## Not recommended
