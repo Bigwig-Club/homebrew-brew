@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "appinfo" do
-  version "0.0.6"
-  sha256 "62bc7b7975af36a79af7c87afbae8aa96a814c80bf8e34c7d5b7aff24cbbce77"
+  version "0.0.7"
+  sha256 "3e4ec3a937a95b14b0bfe26b36e1ddd3c3328fc1d670ec2dd8a7405e03429b4f  "
 
   url "https://github.com/uclort/AppInfo-Publish/releases/download/#{version}/AppInfo.zip"
   appcast "https://github.com/uclort/AppInfo-Publish/releases.atom"
