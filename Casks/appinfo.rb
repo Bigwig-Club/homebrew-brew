@@ -2,7 +2,7 @@
 
 cask "appinfo" do
   version "0.0.7"
-  sha256 "3e4ec3a937a95b14b0bfe26b36e1ddd3c3328fc1d670ec2dd8a7405e03429b4f  "
+  sha256 "3e4ec3a937a95b14b0bfe26b36e1ddd3c3328fc1d670ec2dd8a7405e03429b4f"
 
   url "https://github.com/uclort/AppInfo-Publish/releases/download/#{version}/AppInfo.zip"
   appcast "https://github.com/uclort/AppInfo-Publish/releases.atom"
