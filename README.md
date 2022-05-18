@@ -4,9 +4,9 @@
 
 - account-switcher `Easily switch between multiple accounts in the App Store.` by [@L1cardo](https://github.com/L1cardo)
 - app-tracker `Track app's price change in App Store with multi options.` by [@L1cardo](https://github.com/L1cardo)
-- jsontohandyjson `Transform json to a handyjson object.` by [@nlnlnull](https://github.com/nlnlnull)
-- openfile `Openfile quickly.` by [@nlnlnull](https://github.com/nlnlnull)
-- translation `Translation, you know.` by [@nlnlnull](https://github.com/nlnlnull)
+- appinfo `View software details` by [@Uclort](https://github.com/uclort)
+- openfile `Openfile quickly.` by [@Uclort](https://github.com/uclort)
+- translation `Translation, you know.` by [@Uclort](https://github.com/uclort)
 - upic `The best image and file upload tool on Mac.` by [@Svend Jin](https://github.com/gee1k)
 
 ## How do I install these casks or formulas
