@@ -8,7 +8,7 @@
 - openfile `Openfile quickly.` by [@Uclort](https://github.com/uclort)
 - translation `Translation, you know.` by [@Uclort](https://github.com/uclort)
 - upic `The best image and file upload tool on Mac.` by [@Svend Jin](https://github.com/gee1k)
-- uCopy `Yet Another Pasteboard Tool` by [@FaiChou](https://github.com/FaiChou)
+- ucopy `Yet Another Pasteboard Tool` by [@FaiChou](https://github.com/FaiChou)
 
 ## How do I install these casks or formulas
 
