@@ -5,7 +5,7 @@ cask "upic" do
   sha256 "1152e2f3995cc33d16d764348618a70a9fb067f2b17f548a813646809aa1154c"
 
   url "https://github.com/gee1k/uPic/releases/download/v#{version}/uPic.zip"
-  livecheck "https://github.com/gee1k/uPic/releases.atom"
+  # appcast "https://github.com/gee1k/uPic/releases.atom"
   name "uPic"
   homepage "https://github.com/gee1k/uPic"
 
@@ -14,6 +14,11 @@ cask "upic" do
   app "uPic.app"
   shimscript = "#{staged_path}/upic.wrapper.sh"
   binary shimscript, target: "upic"
+  
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   preflight do
     IO.write shimscript, <<~EOS
