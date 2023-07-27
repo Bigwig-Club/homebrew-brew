@@ -10,12 +10,17 @@ cask "account-switcher" do
   end
   
   url "https://github.com/Bigwig-Club/Account-Switcher/releases/download/v#{version}/Account_Switcher.zip"
-  appcast "https://github.com/Bigwig-Club/Account-Switcher/releases.atom"
+  # appcast "https://github.com/Bigwig-Club/Account-Switcher/releases.atom"
   name "Account Switcher"
   homepage "https://github.com/Bigwig-Club/Account-Switcher"
   depends_on macos: ">= :catalina"
 
   app "Account Switcher.app"
+  
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   zap trash: [
     "~/Library/Preferences/com.licardo.Account-Switcher.plist",
