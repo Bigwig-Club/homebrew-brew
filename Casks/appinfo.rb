@@ -5,11 +5,16 @@ cask "appinfo" do
   sha256 "42f5a40cffe805b40abc164b41a1eb941eca3fc8468d500a2c5713db61dd0e41"
 
   url "https://github.com/uclort/AppInfo-Publish/releases/download/#{version}/AppInfo.zip"
-  livecheck "https://github.com/uclort/AppInfo-Publish/releases.atom"
+  # appcast "https://github.com/uclort/AppInfo-Publish/releases.atom"
   name "AppInfo"
   homepage "https://github.com/uclort/AppInfo-Publish"
 
   depends_on macos: ">= :monterey"
+  
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   app "AppInfo.app"
 
