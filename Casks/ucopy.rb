@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "ucopy" do
-  version "1.2"
-  sha256 "5759d911b38f2c7295f9d0fa1dd78bb591f67f3aca7b701e5c5aea37c7288e95"
+  version "1.4"
+  sha256 "34c803636a77a13e5d98a41cedac5c9a5fd40566cc0f2184fcb8b9f941f06e21"
 
   url "https://github.com/FaiChou/uCopy/releases/download/v#{version}/uCopy.zip"
   # appcast "https://github.com/FaiChou/uCopy/releases.atom"
