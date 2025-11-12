@@ -22,7 +22,7 @@ cask "upic" do
   end
 
   preflight do
-    IO.write shimscript, <<~EOS
+    File.write shimscript, <<~EOS
       #!/bin/bash
       '#{appdir}/uPic.app/Contents/MacOS/uPic' "$@"
     EOS
