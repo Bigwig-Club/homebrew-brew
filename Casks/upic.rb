@@ -7,9 +7,10 @@ cask "upic" do
   url "https://github.com/gee1k/uPic/releases/download/v#{version}/uPic.zip"
   # appcast "https://github.com/gee1k/uPic/releases.atom"
   name "uPic"
+  desc "uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS"
   homepage "https://github.com/gee1k/uPic"
 
-  depends_on macos: ">= :sierra"
+  auto_updates true
 
   app "uPic.app"
   shimscript = "#{staged_path}/upic.wrapper.sh"
@@ -30,5 +31,15 @@ cask "upic" do
   zap trash: [
     "~/Library/Preferences/com.svend.uPic.plist",
     "~/Library/Caches/com.svend.uPic",
+    "~/Library/Group Containers/group.svend.uPic",
+    "~/Library/Containers/com.svend.uPic.macos",
+    "~/Library/Containers/com.svend.uPic.macos.uPicShareExtension",
+    "~/Library/Containers/com.svend.uPic.macos.uPicActionExtension",
+    "~/Library/Containers/com.svend.uPic.macos.uPicAppIntentsExtension",
+    "~/Library/Application Scripts/group.svend.uPic",
+    "~/Library/Application Scripts/com.svend.uPic.macos",
+    "~/Library/Application Scripts/com.svend.uPic.macos.uPicActionExtension",
+    "~/Library/Application Scripts/com.svend.uPic.macos.uPicAppIntentsExtension",
+    "~/Library/Application Scripts/com.svend.uPic.macos.uPicShareExtension"
   ]
 end
