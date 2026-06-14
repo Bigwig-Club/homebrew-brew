@@ -8,8 +8,6 @@ cask "openfile" do
   # appcast "https://github.com/uclort/OpenFile/releases.atom"
   name "OpenFile"
   homepage "https://github.com/uclort/OpenFile"
-
-  depends_on macos: ">= :sierra"
   
   livecheck do
     url :url

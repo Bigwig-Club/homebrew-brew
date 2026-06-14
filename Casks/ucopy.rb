@@ -9,7 +9,7 @@ cask "ucopy" do
   name "uCopy"
   homepage "https://github.com/FaiChou/uCopy"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   
   livecheck do
     url :url

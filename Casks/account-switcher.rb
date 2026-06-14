@@ -13,7 +13,7 @@ cask "account-switcher" do
   # appcast "https://github.com/Bigwig-Club/Account-Switcher/releases.atom"
   name "Account Switcher"
   homepage "https://github.com/Bigwig-Club/Account-Switcher"
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Account Switcher.app"
   

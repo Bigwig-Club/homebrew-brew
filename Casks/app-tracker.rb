@@ -9,7 +9,7 @@ cask "app-tracker" do
   name "App Tracker"
   homepage "https://github.com/L1cardo/AppTracker-Release"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "App Tracker.app"
   

@@ -9,7 +9,7 @@ cask "translation" do
   name "Translation"
   homepage "https://github.com/uclort/Translation"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
   
   livecheck do
     url :url
