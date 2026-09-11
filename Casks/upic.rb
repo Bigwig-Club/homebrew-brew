@@ -15,16 +15,16 @@ cask "upic" do
   app "uPic.app"
   shimscript = "#{staged_path}/upic.wrapper.sh"
   binary shimscript, target: "upic"
-  
+
   livecheck do
     url :url
     strategy :github_latest
   end
 
-  preflight do
-    File.write shimscript, <<~EOS
+  preflight_steps do
+    write_file "upic.wrapper.sh", <<~EOS
       #!/bin/bash
-      '#{appdir}/uPic.app/Contents/MacOS/uPic' "$@"
+      '{{appdir}}/uPic.app/Contents/MacOS/uPic' "$@"
     EOS
   end
 
